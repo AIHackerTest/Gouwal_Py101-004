@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block content %}
+<div style="text-align:center">
+
+  <p>{% for city in history_list %}
+        {{city}} </br>
+    {% endfor %}</p>
+
+
+</div>
+{% endblock %}

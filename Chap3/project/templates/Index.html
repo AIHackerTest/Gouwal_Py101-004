@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style type="text/css">
+    p.normal {font-style:normal}
+    p.italic {font-style:italic}
+    p.oblique {font-style:oblique}
+    </style>
+    <meta charset="utf-8">
+    <title>天气查询系统</title>
+  </head>
+  <body style="background-color: #F5F5DC">
+  <body>
+    <h1 style="text-align:center;color:#DC143C"> Neil's 天气查询系统 </h1>
+    <form action="/user_request" method="get" style="text-align:center"> <!--This is the most difficult one,"action="user_request""-->
+      城市:<input type="text" name=city value="" style="width:110px;margin-left:5px"> <input type="submit" name="query" value="查询"> </br>
+      <div style="float:center;margin-left:-10px">
+        <input type="submit" name=help value="帮助" style="width:50px">
+        <input type="submit" name=history value="历史" style="width:50px;float:center;margin-left:10px">
+      </div>
+
+    </form>
+
+  {% block content %}
+  {% endblock %}
+
+  </body>
+</html>

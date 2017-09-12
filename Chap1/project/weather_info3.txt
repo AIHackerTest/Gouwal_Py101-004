@@ -1,0 +1,6 @@
+Hangzhou,rainy
+Shanghai,sunny
+Xiamen,cloudy
+Beijing,sunny
+Xian,sunny
+Wulumuqi,rainy
